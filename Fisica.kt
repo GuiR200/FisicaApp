@@ -3,7 +3,7 @@ import kotlin.math.pow
 class Fisica {
     fun calcularForcaDoPeso(massa: Float, gravidade: Float) = massa * gravidade
 
-    fun calcularForcaCentripeta(massa: Float, velocidade: Double, raio: Float) = massa * velocidade.pow(2) / raio
+    fun calcularForcaCentripeta(massa: Float, velocidade: Double, raio: Float) = massa * (velocidade.pow(2) / raio)
 
     fun calcularImpulso(forca: Float, tempo: Float) = forca * tempo
 
